@@ -13,9 +13,9 @@ JSON
  - vim new.json
  нажать insert
  { 
-	"name": "Andrey"
-	"surname": "Zverev"
-	"pets": null
+	"name": "Andrey",
+	"surname": "Zverev",
+	"pets": null,
 	"salary": "1200$"
  }
  
@@ -29,7 +29,7 @@ JSON
  - vim preferences.json
  нажать insert
  {	
-	:movie": "The Dark Knight",
+	"movie": "The Dark Knight",
 	"tv series": "The Boys",
 	"food": "pureshechka s kartoshkoy",
 	"season": "summer",
@@ -60,7 +60,7 @@ JSON
 два раза "кликнуть" на файл "bug_report.json"
 выбрать "edit this file"
 {
-	"ID": 123QWE,
+	"ID": "123QWE",
  	"Summary": "При нажатии кнопки "РЕГИСТРАЦИЯ" на главной странице не открывается форма регистрации",
 	"Environment": ["IdeaPad S145-15API", "WINDOWS10 HOME 20H2", "All browsers"],
 	"Project": "QA_COURSES.Lesson_2",
@@ -104,13 +104,13 @@ XML
  30. В файл preferences.xml добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате XML.
  - vim preferences.xml
  нажать insert
- <preferences user>
+ <preferences>
 	<movie>The Dark Knight</movie>
-	<tv series>The Boys</tv series>
+	<tvseries>The Boys</tvseries>
 	<food>pureshechka s kartoshkoy</food>
 	<season>summer</season>
 	<travel>Iceland</travel>
-</preferences user>
+</preferences>
 нажать "esc"
  :wq
  
