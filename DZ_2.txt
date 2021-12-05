@@ -60,8 +60,16 @@ JSON
 два раза "кликнуть" на файл "bug_report.json"
 выбрать "edit this file"
 {
-    "bug": null
-    "who are you?: "i'm batman"
+	"ID": 123QWE,
+ 	"Summary": "При нажатии кнопки "РЕГИСТРАЦИЯ" на главной странице не открывается форма регистрации",
+	"Environment": ["IdeaPad S145-15API", "WINDOWS10 HOME 20H2", "All browsers"],
+	"Project": "QA_COURSES.Lesson_2",
+	"Severity": "S4 Blocker",
+	"Priority": "P1 High",
+	"Steps to Reproduce": ["Зайти на сайт www.qwe.com", нажать на кнопку РЕГИСТРАЦИЯ"],
+	"Result": "кнопка РЕГИСТРАЦИЯ не активна",
+	"Expected Result": "Открывается форма регистрации",
+	"Attachment": "www.qwerty.com/screenshot123"
 }
 
  19. Сделать Commit changes (сохранить) изменения на веб интерфейсе. -  нажать "commit changes"
@@ -126,10 +134,19 @@ XML
  36. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.
  два раза "кликнуть" на файл "bug_report.xml"
 выбрать "edit this file"
-<report>
-  <bug>they hid</bug>
-  <message>kill 'em all</message>
-</report>
+<bug_report>
+ 	<ID>123QWE</ID>
+	<Summary></Summary>
+	<Enviroment></Enviroment>
+	<Project></Project>
+	<Severity></Severity>
+	<Priority></Priority>
+	<Steps to Reproduce></Steps to Reproduce>
+	<Result></Result>
+	<Expected Result></Expected Result>
+	<Comments></Comments>
+	<Attachment></Attachment>
+</bug_report>
  37. Сделать Commit changes (сохранить) изменения на веб интерфейсе. -  нажать "commit changes"
  38. Синхронизировать внешний и локальный репозиторий XML
  - git fetch
