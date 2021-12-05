@@ -117,9 +117,9 @@ XML
  31. Создать файл sklls.xml добавить информацию о скиллах которые будут изучены на курсе в формате XML -">" или "touch" skills.xml
  - vim skills.xml
  нажать insert
- <courses QA>
+ <courses_QA>
 	<skills>teoriya testirovaniya, dev tools, postman, mobile testing, vpn, adb, sql, scrum, python</skills>
-</courses QA>
+</courses_QA>
 нажать "esc"
  :wq
  
@@ -141,9 +141,9 @@ XML
 	<Project>QA_COURSES.Lesson_2</Project>
 	<Severity>S4 Blocker</Severity>
 	<Priority>P1 High</Priority>
-	<Steps to Reproduce>Зайти на сайт www.qwe.com", нажать на кнопку РЕГИСТРАЦИЯ</Steps to Reproduce>
+	<StepsToReproduce>Зайти на сайт www.qwe.com", нажать на кнопку РЕГИСТРАЦИЯ</StepsToReproduce>
 	<Result>форма регистрации не открывается</Result>
-	<Expected Result>Открывается форма регистрации</Expected Result>
+	<ExpectedResult>Открывается форма регистрации</ExpectedResult>
 	<Attachment>www.qwerty.com/screenshot123</Attachment>
 </bug_report>
  37. Сделать Commit changes (сохранить) изменения на веб интерфейсе. -  нажать "commit changes"
