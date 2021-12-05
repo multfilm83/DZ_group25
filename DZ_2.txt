@@ -1,4 +1,4 @@
-1. Создайте текстоовый файл как в первом ДЗ по Terminal. - создать текстовый файл, назвать "DZ_2.txt"
+1. Создайте текстовый файл как в первом ДЗ по Terminal. - создать текстовый файл, назвать "DZ_2.txt"
 2. Сценарий перенесите в этот файл. - скопировать дз в DZ_2.txt из канала в телеграмм
 3. На против каждого действия - напишите команду в GitBash - само собой
 
@@ -67,7 +67,7 @@ JSON
 	"Severity": "S4 Blocker",
 	"Priority": "P1 High",
 	"Steps to Reproduce": ["Зайти на сайт www.qwe.com", нажать на кнопку РЕГИСТРАЦИЯ"],
-	"Result": "кнопка РЕГИСТРАЦИЯ не активна",
+	"Result": "форма регистрации не открывается",
 	"Expected Result": "Открывается форма регистрации",
 	"Attachment": "www.qwerty.com/screenshot123"
 }
@@ -136,16 +136,15 @@ XML
 выбрать "edit this file"
 <bug_report>
  	<ID>123QWE</ID>
-	<Summary></Summary>
-	<Enviroment></Enviroment>
-	<Project></Project>
-	<Severity></Severity>
-	<Priority></Priority>
-	<Steps to Reproduce></Steps to Reproduce>
-	<Result></Result>
-	<Expected Result></Expected Result>
-	<Comments></Comments>
-	<Attachment></Attachment>
+	<Summary>При нажатии кнопки "РЕГИСТРАЦИЯ" на главной странице не открывается форма регистрации</Summary>
+	<Enviroment>IdeaPad S145-15API", "WINDOWS10 HOME 20H2", "All browsers</Enviroment>
+	<Project>QA_COURSES.Lesson_2</Project>
+	<Severity>S4 Blocker</Severity>
+	<Priority>P1 High</Priority>
+	<Steps to Reproduce>Зайти на сайт www.qwe.com", нажать на кнопку РЕГИСТРАЦИЯ</Steps to Reproduce>
+	<Result>форма регистрации не открывается</Result>
+	<Expected Result>Открывается форма регистрации</Expected Result>
+	<Attachment>www.qwerty.com/screenshot123</Attachment>
 </bug_report>
  37. Сделать Commit changes (сохранить) изменения на веб интерфейсе. -  нажать "commit changes"
  38. Синхронизировать внешний и локальный репозиторий XML
@@ -163,8 +162,8 @@ XML
  7. Отредактировать содержание файла “new.txt” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате TXT.
 vim new.txt
 нажать insert
-1.имя: Вольдемар
-2.фамилия: Затупкин
+1.имя: Модест
+2.фамилия: Аристархов
 3.возраст: 97
 4.домашние животные: Стадо кузнечиков
 5.ожидаемая зарплата: миллион долларов сша
@@ -189,12 +188,12 @@ vim preferences.txt
 vim skills.txt
 нажать insert
 Способноси после курса:
-1. Спать по 3 часа в день
-2. Поглащать гекталитры кофе
-3. Говорить вещи о которых ты где-то когда-то читал с умным видом
-4. Позориться так до конца
-5. Установить много стикерпаков в телегу
-6. Не поехать кукухой
+1. Делать куриные шарики,
+2. Ловить карася в луже,
+3. Силой мысли управлять кузнечиками,
+4. Играть в шахматы с кенгуру,
+5. Бриться расческой,
+6. Готовить рагу из devices
 нажать esc
 :wq
  12. Сделать коммит в одну строку. - git add . 
@@ -208,10 +207,17 @@ vim skills.txt
  16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
  два раза "кликнуть" на файл "bug_report.txt"
 выбрать "edit this file"
-Там сидел чертов баг, эти сукины дети научились прятаться даже на деревьях! Я позвал ребят и мы начали палить что есть сил по этому чертовому полю !
-Джонни! мать твою, они повсюду!!!111
+ID: 123QWE,
+Summary: При нажатии кнопки "РЕГИСТРАЦИЯ" на главной странице не открывается форма регистрации,
+Environment: IdeaPad S145-15API, WINDOWS10 HOME 20H2, All browsers,
+Project:QA_COURSES.Lesson_2,
+Severity: S4 Blocker,
+Priority: P1 High,
+Steps to Reproduce: Зайти на сайт www.qwe.com, нажать на кнопку РЕГИСТРАЦИЯ,
+Result: форма регистрации не открывается,
+Expected Result: Открывается форма регистрации,
+Attachment: www.qwerty.com/screenshot123
  17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
  -  нажать "commit changes"
  18. Синхронизировать внешний и локальный репозиторий TXT - git fetch
                                                           - git pull
-....
