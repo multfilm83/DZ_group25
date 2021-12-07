@@ -1,0 +1,92 @@
+GitHub. HW_2
+1. На локальном репозитории сделать ветки для:
+- Postman - git branch Postman
+- Jmeter - git branch Jmeter
+- CheckLists - git branch CheckLists
+- Bag Reports - git branch BugReports
+- SQL - git branch SQL
+- Charles - git branch Charles
+- Mobile testing - git branch Mobile testing
+
+2. Запушить все ветки на внешний репозиторий (можно указать ветки одной строкой)
+ - git push -u origin Postman Jmeter CheckLists BagReports SQL Charles Mobiletesting 
+
+3. В ветке Bag Reports сделать текстовый документ со структурой баг репорта
+ - git checkout BugReports 
+ - > structure.txt
+ - vim structure.txt
+ - insert
+ - Structure BugReports
+
+MAIN
+  1. ID
+  2. Summary
+  3. Steps to Reproduce
+  4. Result
+  5. Expected Result
+  6. Severity
+  7. Attachments
+
+ALL
+  1. Project
+  2. Component
+  3. Version
+  4. Priority
+  5. Status
+  6. Environment
+  7. Reporter
+  8. Assigne
+  9. Sprint
+  10. Epic Link
+  11. Linked Issues and Issue
+  12. Fix versions
+esc
+:wq
+
+4. Запушить структуру багрепорта на внешний репозиторий
+ - git add .
+ - git commit -m "structure bug report"
+ - git push
+
+5. Вмержить ветку Bag Reports в Main
+ - git checkout main
+ - git merge BugReports
+
+6. Запушить main на внешний репозиторий.
+ - git add structure.txt
+ - git commit -m "structure"
+ - git push
+
+7. В ветке CheckLists набросать структуру чек листа.
+ - git checkout CheckLists
+ - > CLstructure.txt
+ - vim CLstructure.txt
+ insert
+Structure CheckLists
+   1. Version Build (версия сборки)
+   2. Environment (окружение)
+   3. Test Date (дата проведения теста)
+   4. Tester (тестировщик)
+   5. Type Test (тип теста)
+   6. Name Check (наименование проверки)
+   7. Result (результат проверки)
+esc
+:wq
+
+8. Запушить структуру на внешний репозиторий
+ - git add .
+ - git commit -m "CL structure"
+ - git push
+
+9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
+ - нажать "Compare & pull request"
+ - нажать "Create pull request"
+ - нажать "Merge pull request"
+ - нажать "Confirm Merge"
+
+10. Синхронизировать Внешнюю и Локальную ветки Main
+ - git fetch
+ - git pull
+
+
+
